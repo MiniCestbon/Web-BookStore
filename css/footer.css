@@ -1,0 +1,13 @@
+/* CSS Document */
+/*页面底部版权区域*/
+#footer{
+    width: 960px;
+    padding: 30px 10px;
+    color: #999;
+    text-align: center;
+    background: url("../images/a.png") no-repeat top;
+}
+
+#footer a{
+    color: #fff;
+}

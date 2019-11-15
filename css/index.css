@@ -1,0 +1,121 @@
+/* CSS Document */
+/*页面全局样式*/
+body{
+    margin: 0;
+    padding: 0;
+    color: #999;
+    font-family: zenicon;
+    font-size: 12px;
+    line-height: 1.4em;
+    background-repeat: repeat;
+/*    background-image: url("../images/z.png")*/
+}
+
+#body_wrapper{                       /*背景容器的样式*/
+    width: 99.9%;
+/*        background-image: url("../images/z.png")*/
+}
+
+#wrapper{                            /*整个页面容器wrapper的样式*/
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to left top, rgba(0,255,255,1.00), 10%, rgba(255,255,255,1.00));   /*渐变色*/
+    background-color: #47C1C9;
+}
+
+#wrapper .main{
+    width: 100%;
+    background-color: #000;
+}
+
+a,a:link,a:visited{
+    color: #0299aa;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin: 0 0 10px 0;
+    padding: 0
+}
+
+img{
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0 0 30px;
+    padding: 5px 0 5px 0;
+}
+
+h2{
+    font-size: 26px;
+    margin: 0 0 25px 0;
+    padding: 5px 0 5px 0;
+}
+
+h3{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+h4{
+    font-size: 16px;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+h5{
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+h6{
+    font-size: 12px;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.cleaner{
+    clear: both;         /*清除所有浮动*/
+}
+
+.h10{
+    height: 10px;        /*清除浮动后保留的空白区域的高度为10px*/
+}
+
+.h20{
+    height: 20px;
+}
+
+.h30{
+    height: 30px;
+}
+
+.h40{
+    height: 40px;
+}
+
+.h50{
+    height: 50px;
+}
+
+.float_l{
+    float: left;
+}
+
+.float_r{
+    float: right;
+}

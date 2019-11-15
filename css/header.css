@@ -1,0 +1,20 @@
+/* CSS Document */
+/*页面顶部区域*/
+#header{
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 30px 10px;
+    background-size: contain;
+    background: url("../images/z.png") no-repeat bottom left;
+}
+
+#header_right{
+    float: right;
+    margin: 35px 20px 0 0;
+    color: #666;
+}
+
+#header_right a{
+    color: #000;
+}

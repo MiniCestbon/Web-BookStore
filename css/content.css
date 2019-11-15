@@ -1,0 +1,130 @@
+/* CSS Document */
+/*右边主要内容区域*/
+#content{
+    width: 690px;
+}
+
+#slider-wrapper{
+    float: left;
+    width: 680px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+#slider{
+    position: relative;
+    width: 620px;
+    height: 300px;
+    background: url("../images/a.png") no-repeat 50% 50%;
+}
+
+#slider img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#slider a{
+    border: 0;
+    display: block;
+}
+
+.nivo-controlNav a{
+    display: block;
+    width: 14px;
+    height: 18px;
+    background: url("../images/a.png") no-repeat;
+    text-indent: 4px;
+    border: 0;
+    margin-right: 3px;
+    float: left;
+}
+
+.nivo-controlNav a.active{
+    background-position: 0 -18px;
+    
+}
+
+.nivo-directionNav a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/a.png") no-repeat;
+    text-indent: -9999px;
+    border: 0;
+}
+
+a.nivo-nextNav{
+    background-position: -30px 0;
+    right: 15px;
+}
+
+a.nivo-prevNav{
+    left: 15px;
+}
+
+.product_box{
+    float: left;
+    width: 220px;
+    text-align: center;
+    margin: 0px 10px 30px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.product_box img{
+    margin-bottom: 5px;
+}
+
+.product_box h3{
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 10px; 
+}
+
+.product_box .product_peice{
+    color: #11bdd1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.product_box .addtocart{
+    float: left;
+    display: block;
+}
+
+.product_box .detail{
+    float: right;
+    display: block;
+}
+
+a.addtocart{
+    display: inline-block;
+    width: 80px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+    background: url("../images/a.png");
+}
+
+a.detail{
+    display: inline-block;
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+    background: url("../images/a.png");
+}
+
+
+
+
