@@ -55,6 +55,5 @@
 #search{                      /*菜单容器右侧搜索表单容器的样式*/  
     float: right;
     width: 350px;
-    margin-top: 25px;
-    margin-right: 440px
+    margin: 25px auto;
 }

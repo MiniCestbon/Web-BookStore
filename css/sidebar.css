@@ -3,16 +3,18 @@
 #sidebar{
     width: 240px;
     margin-left: 0px;
+    margin-right: 0px;
     padding-top: 0px;
+    position: relative;
+    left: -85px;
+    top: 10px;
 }
 
 .sidebar_box{                        /*左侧边栏目中子栏目的样式，包括上面的商品分类和下面的畅销排行*/
-    position: relative;
     background: linear-gradient(to right bottom, rgba(0,255,255,1.00), 10%, rgba(255,255,255,1.00));
     margin-bottom: 36px;
     margin-left: 0px;
     padding: 5px;
-    left: -85px;
 /*    border: 1px solid #dbdbdb;        边框为1px灰色实线*/
 }
 
