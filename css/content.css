@@ -1,7 +1,7 @@
 /* CSS Document */
 /*右边主要内容区域*/
 #content{
-    width: 819px;
+    width: 818px;
     margin-left: 0px;
 }
 
@@ -16,7 +16,7 @@
 #slider{                        /*设置商品幻灯广告内容的样式*/
     position: relative;
     width: 720px;
-    height: 440px;
+    height: 480px;
     margin: auto;
 /*    background: url("../images/a.png") no-repeat 50% 50%;*/    /*背景默认的广告画面加载时的等待图标*/
 }
@@ -133,6 +133,20 @@ a.detail{                                /*商品明细按钮的背景图片*/
     background: url("../images/下拉箭头.png");
 }
 
+.main .content_alone{
+    width: 818px;
+    margin-top: 500px;
+    margin-bottom: 100px 
+}
 
+.content_left{                            /*商品明细页面*/
+    width: 409px;
+    margin-left: 160px;
+}
 
-
+.content_right{                            /*商品明细页面*/
+    width: 409px;
+    margin-top: 40px;
+    margin-right: 160px;
+    font-size: 13px;
+}

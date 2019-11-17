@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>程序猿的书库 - 首页</title>
-<meta name="Keywords" content="程序员，网上购物，书库" />
+<title>Python-商品明细-程序猿的书库</title>
+<meta name="Keywords" content="程序员，网上购物，书库，python" />
 <meta name="Description" content="程序猿的专属书库。">
     <link rel="stylesheet" href="../css/index.css" type="text/css">
     <link rel="stylesheet" href="../css/header.css" type="text/css">
@@ -21,8 +21,8 @@
 <body>
     <div id="body_wrapper">
         <div id="wrapper">
-        <div id="header">                                       <!--头部-->    
-                <div id="header_right">                             <!--右部导航菜单-->
+        <div id="header">                                       <!头部>    
+                <div id="header_right">                             <!右部导航菜单>
                     <ul class="nav nav-secondary">
                       <li class="active"><a href="#">首页</a></li>
                       <li><a href="#">登录</a></li>
@@ -63,7 +63,7 @@
                     <ul class="sidebar_list">                           <!左侧分类列表界面>
                         <li class="divider first"></li>
                         <div><h3>编程语言</h3></div>
-                        <li><a href="products.html">Python</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Java</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Android</a>&nbsp;&nbsp;&nbsp;
+                        <li><a href="#">Python</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Java</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Android</a>&nbsp;&nbsp;&nbsp;
                             <a href="#">HTML5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">C</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">C++</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">C#</a>&nbsp;&nbsp;&nbsp;
                             <a href="#">Spring</a>&nbsp;&nbsp;&nbsp;<a href="#">Tensorflow</a>&nbsp;&nbsp;&nbsp;<a href="#">Arduino</a>&nbsp;&nbsp;&nbsp;
                         </li>
@@ -84,7 +84,7 @@
                     </ul>
                     </div>
                 </div>
-                <div class="sidebar_box"><span class="bottom"></span>                   <!--左侧畅销榜单界面-->
+                <div class="sidebar_box"><span class="bottom"></span>                   <!左侧畅销榜单界面>
                     <h3>畅销榜单</h3>
                     <div class="content">
                         <div class="bs_box">
@@ -115,79 +115,21 @@
                 </div>
             </div>
             <div id="content" class="float_r">
-                <div id="slider-wrapper">
-                    <div id="slider" class="nivoSlider">
-                        <a href="productdetail.html"><img src="../images/product/Python_adv.png" alt="" title="Python编程 从入门到精通"/></a>
-                        <a href="#"><img src="../images/product/pythono.png" alt="" title="C++ Primer Plus（第6版 中文版）"/></a>
-                        <a href="#"><img src="../images/product/java.png" alt="" title="Java从入门到精通（第5版）"/></a>
-                        <a href="#"><img src="../images/product/deepstudy.png" alt="" title="深度学习"/></a>
-                    </div>
+                <div><h1>商品明细</h1></div><br>
+                <div class="content_half float_l">
+                    <img src="../images/a.png" alt="image"/>
                 </div>
-                <script type="text/javascript" src="../js/jquery.nivo.slider.pack.js"></script>
-                <script type="text/javascript">
-                    $(window).load(function(){
-                        $('#slider').nivoSlider();
-                    });
-                </script>
-                <div class="cleaner h30"></div>
-                <h1 style="color: red">新书排行榜:</h1><br>
-                <div class="product_box">
-                    <h3>Python系列</h3>
-                    <a href="productdetail.html"><img src="../images/product/pachong.png" alt="Book 1"/></a>
-                    <a href="productdetail.html"><p>Python3 网络爬虫开发<br>实战</p></a>
-                    <p class="product_price">￥79.00</p>
-                    <a href="shoppingcart.html" class="addtocart"></a>
-                    <a href="productdetail.html" class="detail"></a>
-                </div>
-                <div class="product_box">
-                    <h3>区块链系列</h3>
-                    <a href="#"><img src="../images/product/qukuailian.png" alt="Book 2"/></a>
-                    <a href="#"><p>大话区块链<br>&nbsp;</p></a>
-                    <p class="product_price">￥50.20</p>
-                    <a href="#" class="addtocart"></a>
-                    <a href="#" class="detail"></a>
-                </div>
-                <div class="product_box">
-                    <h3>Python系列</h3>
-                    <a href="productdetail.html"><img src="../images/product/jinrong.png" alt="Book 3"/></a>
-                    <a href="#"><p>基于Python的金融分析<br>与风险管理</p></a>
-                    <p class="product_price">￥98.80</p>
-                    <a href="#" class="addtocart"></a>
-                    <a href="#" class="detail"></a>
-                </div>
-                <div class="cleaner"></div>         <!--<!横向3个商品展示完毕换行>-->
-                <div class="product_box">
-                    <h3>进阶系列</h3>
-                    <a href="#"><img src="../images/product/threecourses.png" alt="Book 4"/></a>
-                    <a href="#"><p>程序员的三门课<br>&nbsp;</p></a>
-                    <p class="product_price">￥79.00</p>
-                    <a href="#" class="addtocart"></a>
-                    <a href="#" class="detail"></a>
-                </div>
-                <div class="product_box">
-                    <h3>算法系列</h3>
-                    <a href="#"><img src="../images/product/suanfa.png" alt="Book 5"/></a>
-                    <a href="#"><p>推荐系统算法实践<br>&nbsp;</p></a>
-                    <p class="product_price">￥89.00</p>
-                    <a href="#" class="addtocart"></a>
-                    <a href="#" class="detail"></a>
-                </div>
-                <div class="product_box">
-                    <h3>智能计算系列</h3>
-                    <a href="#"><img src="../images/product/jiagou.png" alt="Book 6"/></a>
-                    <a href="#"><p>昇腾AI处理器架构与<br>编程</p></a>
-                    <p class="product_price">￥58.70</p>
-                    <a href="#" class="addtocart"></a>
-                    <a href="#" class="detail"></a>
-                </div>                
+                <div class="content_half float_r">
+                    
+                </div> 
             </div>
             <div class="cleaner"></div>
         </div>
         <div id="footer">
             <p><a href="#">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">联系客服</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">常见问题</a></p>
-            Copyright &copy; &nbsp;程序员的书房&nbsp;&nbsp;2019&nbsp;&nbsp;|&nbsp;&nbsp;热线：400-420-8888&nbsp;&nbsp;ICP 备 88687747号
+            Copyright &copy; &nbsp;程序员的书房&nbsp;&nbsp;2019&nbsp;&nbsp;|&nbsp;&nbsp;热线：400-420-8888&nbsp;&nbsp;ICP 备 88687747 号
         </div> 
-      </div>
+        </div>
     </div>
 </body>
 </html>
