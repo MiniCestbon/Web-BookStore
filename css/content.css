@@ -1,7 +1,7 @@
 /* CSS Document */
 /*右边主要内容区域*/
 #content{
-    width: 818px;
+    width: 70%;
     margin-left: 0px;
 }
 
@@ -57,8 +57,7 @@
 .nivo-directionNav a{            /*广告画面两端向左向右箭头链接的样式*/
     display: block;
     width: 30px;
-    height: 30px;
-    background: url("../images/下拉箭头.png") no-repeat;        /*箭头*/
+    height: 45px;
     text-indent: -9999px;
     border: 0;
 }
@@ -66,10 +65,13 @@
 a.nivo-nextNav{                    /*向右箭头链接独立的样式*/
     background-position: -30px 0;
     right: 15px;
+    background: url("../images/Rjiantou.png") no-repeat;
+   
 }
 
 a.nivo-prevNav{                    /*向左箭头链接独立的样式*/
     left: 15px;
+    background: url("../images/Ljiantou.png") no-repeat;
 }
 
 .product_box{                        /*单个商品容器的样式*/
@@ -104,7 +106,7 @@ a.nivo-prevNav{                    /*向左箭头链接独立的样式*/
     display: block;
 }
 
-.product_box .detail{                    /*商品明细的样式*/
+.product_box .addtowish{                    /*加入心愿单*/
     float: right;
     display: block;
 }
@@ -117,11 +119,11 @@ a.addtocart{                            /*加入购物车按钮超链接的样�
     text-align: center;
     font-size: 10px;
     font-weight: bold;
-    color: #333;
-    background: url("../images/下拉箭头.png");
+    color: red;
+/*    background: url("../images/addtocart.png");*/
 }
 
-a.detail{                                /*商品明细按钮的背景图片*/
+a.addtowish{                                /*加入心愿单按钮的背景图片*/
     display: inline-block;
     width: 64px;
     height: 20px;
@@ -129,8 +131,16 @@ a.detail{                                /*商品明细按钮的背景图片*/
     text-align: center;
     font-size: 10px;
     font-weight: bold;
-    color: #333;
-    background: url("../images/下拉箭头.png");
+    color: #9E9E9E;
+/*    background: url("../images/addtowish.png");*/
+}
+
+a.addtocart :hover{
+    color: red;
+}
+
+a.addtowish :hover{
+    color: red;
 }
 
 .main .content_alone{
