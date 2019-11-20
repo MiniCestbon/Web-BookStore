@@ -25,15 +25,15 @@
                 <div id="header_right">                             <!右部导航菜单>
                     <ul class="nav nav-secondary">
                       <li class="active"><a href="index.html">首页</a></li>
-                      <li><a href="#">登录</a></li>
-                      <li><a href="#">注册</a></li>
+                      <li><a href="signin.html">登录</a></li>
+                      <li><a href="register.html">注册</a></li>
                       <li><a href="#">我的订单</a></li>
                       <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">我的书库<span class="caret"></span></a>
                           <ul class="dropdown-menu">
-                              <li><a href="#">购物车</a></li>
+                              <li><a href="shoppingcart.html">购物车</a></li>
                               <li><a href="#">已购买</a></li>
-                              <li><a href="#">收藏夹</a></li>
-                              <li><a href="#">心愿单</a></li>
+                              <li><a href="wishlist.html">心愿单</a></li>
+                              <li><a href="#">最近浏览</a></li>    
                         </ul>
                       </li>
                     </ul>
@@ -129,13 +129,45 @@
                 </div>
             </div>
             <div id="content" class="float_r">
-                <div><h1>商品明细</h1></div><br>
-                <div class="content_half float_l">
-                    <img src="../images/a.png" alt="image"/>
+                <div><h1>心愿单 <i class="icon icon-heart-empty icon-2x"></i></h1></div><br>
+                <table width="840px" cellspacing="0" cellpadding="5" class="float_r">
+                    <tr style="background: #ddd;">
+                        <th width="140" align="left"><label><input type="checkbox">全选</label></th>
+                        <th width="140" align="left">商品</th>
+                        <th width="140" align="left">单价</th>
+                        <th width="140" align="center">数量</th>
+                        <th width="140" align="right">小计</th>
+                        <th width="140" align="right">操作</th>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"></label></td>
+                        <td><img src="../images/product/best2.png" alt="book1"/></td>
+                        <td>￥62.00</td>
+                        <td><input type="text" value="1" style="width: 20px;text-align: center;"/></td>
+                        <td>￥62.00</td>
+                        <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至购物车"><i class="icon-shopping-cart"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"></label></td>
+                        <td><img src="../images/product/best1.png" alt="book1"/></td>
+                        <td>￥62.20</td>
+                        <td><input type="text" value="2" style="width: 20px;text-align: center;"/></td>
+                        <td>￥124.40</td>
+                        <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至购物车"><i class="icon-shopping-cart"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"></label></td>
+                        <td><img src="../images/product/best3.png" alt="book1"/></td>
+                        <td>￥77.80</td>
+                        <td><input type="text" value="1" style="width: 20px;text-align: center;"/></td>
+                        <td>￥77.80</td>
+                        <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至购物车"><i class="icon-shopping-cart"></i></a></td>
+                    </tr>
+                </table>
+                <div class="cleaner h30"></div>
+                <div style="position: relative;left: 40px;">
+                <ul class="pager" data-ride="pager" data-page="1" data-rec-total="30" data-rec-per-page="3"></ul>
                 </div>
-                <div class="content_half float_r">
-                    
-                </div> 
             </div>
             <div class="cleaner"></div>
         </div>
