@@ -7,11 +7,11 @@ body{
 	color: #24292e;
 	}
 					
-.container_top{
+.top{
     width:100%;
 }
 
-.container_top_center{
+.top_center{
     width:310px;
     height:150px;
     margin:0 auto;
@@ -33,12 +33,12 @@ body{
     text-align:center;
 }
 
-.container_main{
+.main{
     width:100%;
 
 }
 
-.container_main_center{
+.main_center{
     width:310px;
     height:235px;
     margin:0 auto;
@@ -102,7 +102,7 @@ body{
     height:100px;
 
 }
-.main_foot{
+.foot_center{
     width:310px;
     height:90px;
     margin:0 auto;
@@ -110,7 +110,7 @@ body{
 
 }
 
-.sixth{
+.foot_top{
     width:310px;
     height:50px;
     background-color:#F9F9F9;
