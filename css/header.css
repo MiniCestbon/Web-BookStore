@@ -18,3 +18,9 @@
 #header_right a{
     color: #000;
 }
+
+#show{
+    height: auto;
+    position: absolute;
+    right: 200px;
+}
