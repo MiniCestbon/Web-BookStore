@@ -20,7 +20,7 @@ body{
     width: 80%;
     margin: 0 auto;
     background: linear-gradient(to left top, rgba(0,255,255,1.00), 10%, rgba(255,255,255,1.00));   /*渐变色*/
-    background-color: #47C1C9;
+/*    background-color: #47C1C9;*/
 }
 
 #wrapper .main{
@@ -110,6 +110,10 @@ h6{
 
 .h50{
     height: 50px;
+}
+
+.h100{
+    height: 100px;
 }
 
 .float_l{

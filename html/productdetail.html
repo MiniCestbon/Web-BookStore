@@ -16,6 +16,7 @@
     <script src="../dist/lib/jquery/jquery.js"></script>
     <script src="../dist/js/zui.js"></script>
     <script src="../js/myScript.js"></script>
+    <script src="../js/jquery.nivo.slider.pack.js"></script>
     
 </head>
 
@@ -29,18 +30,33 @@
                       <li class="active"><a href="index.html">首页</a></li>
                       <li><a href="signin.html">登录</a></li>
                       <li><a href="register.html">注册</a></li>
-                      <li><a href="#">我的订单</a></li>
+                      <li><a href="#mymodal" data-toggle="modal" data-moveable="true">我的订单</a></li>
                       <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">我的书库<span class="caret"></span></a>
                           <ul class="dropdown-menu">
                               <li><a href="shoppingcart.html">购物车</a></li>
-                              <li><a href="#">已购买</a></li>
+                              <li><a href="#mymodal" data-toggle="modal" data-moveable="true">已购买</a></li>
                               <li><a href="wishlist.html">心愿单</a></li>
-                              <li><a href="#">最近浏览</a></li>
-                              
+                              <li><a href="#mymodal" data-toggle="modal" data-moveable="true">最近浏览</a></li>
                         </ul>
                       </li>
                     </ul>
                 </div>
+             <div class="modal fade" id="mymodal">       <!--提示登入对话框-->
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title">提示</h4>
+                  </div>
+              <div class="modal-body">
+                <p align="center">请先登入！</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              </div>
+                </div>
+             </div>
+           </div>
                 <div class="cleaner"></div>
           </div>
         <div id="menubar">
@@ -86,8 +102,190 @@
                     </table>
                 </div>
             </div>
-            <div class="cleaner h50"></div>
+            <div class="cleaner h100"></div>
+            <div class="btn-group" style="width: 100%">
+              <button type="button" class="btn btn-danger active" style="width: 15%">人气单品</button>
+              <button type="button" class="btn btn-success" style="width: 15%">七日畅销榜</button>
+              <button type="button" class="btn btn-info" style="width: 15%">新书热卖榜</button>
+            </div>
+            <div class="cleaner h20"></div> 
+            <div class="btn-content">
+                <div class="aaa">
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book1.png" alt="Book 1"/></a>
+                    <a href="#"><p>基于Python的金融分析<br>与风险管理</p></a>
+                    <p class="product_price">￥109.70</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book2.png" alt="Book 2"/></a>
+                    <a href="#"><p>深入理解计算机系统<br>（原书第3版）</p></a>
+                    <p class="product_price">￥114.70</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book3.png" alt="Book 3"/></a>
+                    <a href="#"><p>高性能MySQL<br>（第三版）</p></a>
+                    <p class="product_price">￥121.60</p>
+                </div>         
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book4.png" alt="Book 4"/></a>
+                    <a href="#"><p>鸟哥的Linux私房菜 基础<br>学习篇 第四版</p></a>
+                    <p class="product_price">￥109.70</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book5.png" alt="Book 5"/></a>
+                    <a href="#"><p>半小时漫画中国史系列<br>+世界史（套装共5册）</p></a>
+                    <p class="product_price">￥200.00</p>
+                </div>
+                <div class="cleaner"></div>
+                </div>
+                
+                <div class="hide aaa">
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book6.png" alt="Book 1"/></a>
+                    <a href="#"><p>数学之美（第二版）<br>&nbsp;</p></a>
+                    <p class="product_price">￥45.60</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book7.png" alt="Book 2"/></a>
+                    <a href="#"><p>动手学深度学习<br>&nbsp;</p></a>
+                    <p class="product_price">￥79.10</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book8.png" alt="Book 3"/></a>
+                    <a href="#"><p>重构 改善既有代码的设计 <br>Java语言版</p></a>
+                    <p class="product_price">￥64.20</p>
+                </div>               
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book9.png" alt="Book 4"/></a>
+                    <a href="#"><p>机器学习实战<br>&nbsp;</p></a>
+                    <p class="product_price">￥54.20</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/Book4.png" alt="Book 5"/></a>
+                    <a href="#"><p>鸟哥的Linux私房菜 基础<br>学习篇 第四版</p></a>
+                    <p class="product_price">￥109.70</p>
+                </div>
+                <div class="cleaner"></div>
+                </div>
+                
+                <div class="hide aaa">
+                    <div class="product_box">
+                    <a href="#"><img src="../images/product/pachong.png" alt="Book 1"/></a>
+                    <a href="#"><p>Python3 网络爬虫开发<br>实战</p></a>
+                    <p class="product_price">￥79.00</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/qukuailian.png" alt="Book 2"/></a>
+                    <a href="#"><p>大话区块链<br>&nbsp;</p></a>
+                    <p class="product_price">￥50.20</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/jinrong.png" alt="Book 3"/></a>
+                    <a href="#"><p>基于Python的金融分析<br>与风险管理</p></a>
+                    <p class="product_price">￥98.80</p>
+                </div>               
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/threecourses.png" alt="Book 4"/></a>
+                    <a href="#"><p>程序员的三门课<br>&nbsp;</p></a>
+                    <p class="product_price">￥79.00</p>
+                </div>
+                <div class="product_box">
+                    <a href="#"><img src="../images/product/suanfa.png" alt="Book 5"/></a>
+                    <a href="#"><p>推荐系统算法实践<br>&nbsp;</p></a>
+                    <p class="product_price">￥89.00</p>
+                </div>
+                <div class="cleaner"></div>
+                </div>
+            </div>
+            <div class="cleaner h10"></div>
+            
+            <div class="comments">
+              <header>
+                <div class="pull-right"><a href="#commentReplyForm2" class="btn btn-success" style="color: #000"><i class="icon-comment-alt"></i> 发表评论</a></div>
+                <h3>所有评论</h3>
+              </header>
+              <section class="comments-list">
+                <div class="comment">
+                  <a href="###" class="avatar"><i class="icon-camera-retro icon-2x"></i></a>
+                  <div class="content">
+                    <div class="pull-right text-muted">2019-10-24 20:07</div>
+                    <div><a href="###"><strong>V***yu</strong></a></div>
+                    <div class="text">很容易上手，书的内容也不错，后面的练手项目也很有意思，推荐，没必要看英文版，不适合快速学习。</div>
+                    <div class="actions">
+                      <a href="##">回复</a>
+                    </div>
+                  </div>
+                  <div class="comments-list">
+                    <div class="comment">
+                      <a href="###" class="avatar"><i class="icon-user icon-2x"></i></a>
+                      <div class="content">
+                        <div class="pull-right text-muted">15 小时前</div>
+                        <div><a href="###"><strong>Catouse</strong></a> <span class="text-muted">回复</span> <a href="###">V***yu</a></div>
+                        <div class="text">纸张的质量怎么样？是彩色的吗？</div>
+                        <div class="actions">
+                          <a href="##">回复</a>
+                        </div>
+                      </div>
+                      <div class="comments-list">
+                        <div class="comment">
+                          <a href="###" class="avatar"><i class="icon-anchor icon-2x"></i></a>
+                          <div class="content">
+                            <div class="pull-right text-muted">1 个小时前</div>
+                            <div><a href="###"><strong>Evian</strong></a> <span class="text-muted">回复</span> <a href="###">Catouse</a></div>
+                            <div class="text">黑白的。</div>
+                            <div class="actions">
+                              <a href="##">回复</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a href="###" class="avatar"><i class="icon-sun icon-2x"></i></a>
+                  <div class="content">
+                    <div class="pull-right text-muted">2019-10-20 14:47</div>
+                    <div><a href="###"><strong>Cestbon</strong></a></div>
+                    <div class="text">这本书是入门python最好的一本书之一，里面介绍的方法简单易懂，适合刚接触计算机行业的新手入门，不需要太多的计算机基础即可读懂这本书。这本书里面含有大量的练习题，并且含有丰富完整的代码，只需要老老实实的跟着学习，就能跟大多数从业者一样获得成功。通过这本书了解了计算机的工作原理，知道怎么写程序才是一个好的python程序，尽管一开始会比较难，但上手很快，感觉十分好。</div>
+                    <div class="actions">
+                      <a href="##">回复</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment">
+                  <a href="###" class="avatar"><i class="icon-bell-alt icon-2x"></i></a>
+                  <div class="content">
+                    <div class="pull-right text-muted">2019-10-20 14:47</div>
+                    <div><a href="###"><strong>Ganten</strong></a></div>
+                    <div class="text">Python编程从入门到实践，这是网友推荐的一本书。全书包括三个部分，第1部分基础知识，第2部分项目，第3部web应用程序。书有一定的厚度，440多页。前面讲的比较基础，后面有一些实例。总体来讲，这本书前面部分值得仔细的读，但是整体又太厚，因此，后面的项目可以选择性读。</div>
+                    <div class="actions">
+                      <a href="##">回复</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <footer>
+    <div class="reply-form" id="commentReplyForm2">
+      <a href="###" class="avatar"><i class="icon-user icon-2x"></i></a>
+      <form class="form">
+        <div class="form-group">
+          <textarea class="form-control new-comment-text" rows="2" placeholder="撰写评论..."></textarea>
         </div>
+        <div class="form-group comment-user">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="signin.html">登录</a> &nbsp;<a href="register.html">注册</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </footer>
+            </div>
+            
+        </div>
+        <div class="cleaner h20" style="background-color: white"></div>
         <div id="footer">
             <p><a href="index.html">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">联系客服</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">常见问题</a></p>
             Copyright &copy; &nbsp;程序员的书房&nbsp;&nbsp;2019&nbsp;&nbsp;|&nbsp;&nbsp;热线：400-420-8888&nbsp;&nbsp;ICP 备 88687747 号

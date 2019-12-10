@@ -29,18 +29,33 @@
                       <li class="active"><a href="index.html">首页</a></li>
                       <li><a href="signin.html">登录</a></li>
                       <li><a href="register.html">注册</a></li>
-                      <li><a href="#">我的订单</a></li>
+                      <li><a href="#mymodal" data-toggle="modal" data-moveable="true">我的订单</a></li>
                       <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">我的书库<span class="caret"></span></a>
                           <ul class="dropdown-menu">
                               <li><a href="shoppingcart.html">购物车</a></li>
-                              <li><a href="#">已购买</a></li>
+                              <li><a href="#mymodal" data-toggle="modal" data-moveable="true">已购买</a></li>
                               <li><a href="wishlist.html">心愿单</a></li>
-                              <li><a href="#">最近浏览</a></li>
-                              
+                              <li><a href="#mymodal" data-toggle="modal" data-moveable="true">最近浏览</a></li>
                         </ul>
                       </li>
                     </ul>
                 </div>
+            <div class="modal fade" id="mymodal">       <!--提示登入对话框-->
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title">提示</h4>
+                  </div>
+              <div class="modal-body">
+                <p align="center">请先登入！</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              </div>
+                </div>
+             </div>
+           </div>
                 <div class="cleaner"></div>
           </div>
         <div id="menubar">
