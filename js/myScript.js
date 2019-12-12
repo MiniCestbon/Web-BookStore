@@ -15,3 +15,19 @@ $(function () {
         $(".btn-content .aaa").eq($(this).index()).show().siblings().hide();
     })
 });
+
+$("#selectAll").click(function () {
+    if ($(this).prop("checked")) {
+        $(".item").each(function () {
+            $(this).prop("checked", true);
+        });
+    } else {
+        $(".item").each(function () {
+            $(this).prop("checked", false);
+        });
+    }
+    $(".item").click(function () {
+        $("#selectAll").prop('checked',
+        $(".item").length == $(".item:checked").length);
+        });
+    });

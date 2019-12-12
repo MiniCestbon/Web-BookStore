@@ -13,18 +13,16 @@
     <link rel="stylesheet" href="../css/footer.css" type="text/css">
     <link rel="stylesheet" href="../dist/css/zui.css" type="text/css">
     <link rel="stylesheet" href="../css/nivo-slider.css" type="text/css">
-    <script src="../dist/lib/jquery/jquery.js"></script>
-    <script src="../dist/js/zui.js"></script>
-    <script src="../js/myScript.js"></script>
+    
     
 </head>
 
 <body>
     <div id="body_wrapper">
         <div id="wrapper">
-        <div id="header">                                       <!头部>    
+        <div id="header">                                       <!--头部-->    
                 <div id="show"></div>
-                <div id="header_right">                             <!右部导航菜单>
+                <div id="header_right">                             <!--右部导航菜单-->
                     <ul class="nav nav-secondary">
                       <li class="active"><a href="index.html">首页</a></li>
                       <li><a href="signin.html">登录</a></li>
@@ -134,7 +132,7 @@
                 <div><h1>购物车 <i class="icon icon-shopping-cart icon-2x"></i></h1></div><br>
                 <table width="840px" cellspacing="0" cellpadding="5" class="float_r">
                     <tr style="background: #ddd;">
-                        <th width="140" align="left"><label><input type="checkbox">全选</label></th>
+                        <th width="140" align="left"><label><input type="checkbox" id="selectAll">全选</label></th>
                         <th width="140" align="left">商品</th>
                         <th width="140" align="left">单价</th>
                         <th width="140" align="center">数量</th>
@@ -142,7 +140,7 @@
                         <th width="140" align="right">操作</th>
                     </tr>
                     <tr>
-                        <td><label><input type="checkbox"></label></td>
+                        <td><label><input type="checkbox" class="item"></label></td>
                         <td><img src="../images/product/best2.png" alt="book1"/></td>
                         <td>￥62.00</td>
                         <td><input type="text" value="1" style="width: 20px;text-align: center;border: none"/></td>
@@ -150,7 +148,7 @@
                         <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至心愿单"><i class="icon-heart-empty"></i></a></td>
                     </tr>
                     <tr>
-                        <td><label><input type="checkbox"></label></td>
+                        <td><label><input type="checkbox" class="item"></label></td>
                         <td><img src="../images/product/best1.png" alt="book2"/></td>
                         <td>￥62.20</td>
                         <td><input type="text" value="2" style="width: 20px;text-align: center;border: none"/></td>
@@ -158,7 +156,7 @@
                         <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至心愿单"><i class="icon-heart-empty"></i></a></td>
                     </tr>
                     <tr>
-                        <td><label><input type="checkbox"></label></td>
+                        <td><label><input type="checkbox" class="item"></label></td>
                         <td><img src="../images/product/best3.png" alt="book3"/></td>
                         <td>￥77.80</td>
                         <td><input type="text" value="1" style="width: 20px;text-align: center;border: none"/></td>
@@ -166,7 +164,7 @@
                         <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至心愿单"><i class="icon-heart-empty"></i></a></td>
                     </tr>
                     <tr>
-                        <td><label><input type="checkbox"></label></td>
+                        <td><label><input type="checkbox" class="item"></label></td>
                         <td><img src="../images/product/best4.png" alt="book4"/></td>
                         <td>￥62.20</td>
                         <td><input type="text" value="1" style="width: 20px;text-align: center;border: none"/></td>
@@ -174,7 +172,7 @@
                         <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至心愿单"><i class="icon-heart-empty"></i></a></td>
                     </tr>
                     <tr>
-                        <td><label><input type="checkbox"></label></td>
+                        <td><label><input type="checkbox" class="item"></label></td>
                         <td><img src="../images/product/best5.png" alt="book5"/></td>
                         <td>￥99.80</td>
                         <td><input type="text" value="1" style="width: 20px;text-align: center;border: none"/></td>
@@ -182,7 +180,7 @@
                         <td><a href="#"><i class="icon icon-times" title="删除"></i></a> <a href="#" title="移至心愿单"><i class="icon-heart-empty"></i></a></td>
                     </tr>
                     <tr>
-                        <td><label><input type="checkbox"></label></td>
+                        <td><label><input type="checkbox" class="item"></label></td>
                         <td><img src="../images/product/best6.png" alt="book6"/></td>
                         <td>￥167.20</td>
                         <td><input type="text" value="1" style="width: 20px;text-align: center;border: none"/></td>
@@ -203,5 +201,8 @@
         </div> 
         </div>
     </div>
+    <script src="../dist/lib/jquery/jquery.js"></script>
+    <script src="../dist/js/zui.js"></script>
+    <script src="../js/myScript.js"></script>
 </body>
 </html>
